@@ -36,3 +36,8 @@ Automatically runs the pipeline on every push and pull request.
 - `Volcano_plot.png`
 - `Heatmap.png`
 - `GO_plot.png`
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6c17fbf (Initial commit of RNA-seq Nextflow pipeline)
