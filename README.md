@@ -20,7 +20,7 @@ This repository provides a full RNA-seq pipeline using Nextflow with Docker supp
 ## 📁 Directory Structure
 - `RawData/` — Paired-end FASTQ files
 - `Ref/` — Reference genome and annotation (FASTA, GTF, HISAT2 index)
-- `scripts/R_script_DEG.R` — R script for DE analysis
+- `scripts/R_script_DEG.R` — R script for DEG analysis
 
 ## 🚀 Running the Pipeline
 ```bash
@@ -36,8 +36,3 @@ Automatically runs the pipeline on every push and pull request.
 - `Volcano_plot.png`
 - `Heatmap.png`
 - `GO_plot.png`
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 6c17fbf (Initial commit of RNA-seq Nextflow pipeline)
