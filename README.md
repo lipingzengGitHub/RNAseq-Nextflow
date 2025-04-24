@@ -3,14 +3,18 @@
 This repository provides a full RNA-seq pipeline using Nextflow with Docker support, including differential expression analysis and visualization.
 
 # Project Structure
+<pre>
 .
-├── .github/workflows/test_pipeline.yml   # GitHub Actions CI workflow to test the pipeline
-├── Dockerfile                            # Docker environment definition for reproducible execution
-├── nextflow.config                       # Nextflow configuration file (resources, params, paths)
-├── RNAseq-Nextflow.nf                    # Main Nextflow pipeline script for RNA-seq processing
+├── .github/
+│   └── workflows/
+│       └── test_pipeline.yml
+├── Dockerfile
+├── nextflow.config
+├── RNAseq-Nextflow.nf
 ├── scripts/
-│   └── R_script_DEG.R                    # R script for DEG analysis using DESeq2 (used downstream)
-└── README.md                             # Project overview, usage instructions, dependencies
+│   └── R_script_DEG.R
+└── README.md
+</pre>
 
 
 ## 📦 Requirements
